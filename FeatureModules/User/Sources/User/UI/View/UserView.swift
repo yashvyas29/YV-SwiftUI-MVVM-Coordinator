@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@available(iOS 13.0, *)
 struct UserView: View {
     @ObservedObject private(set) var viewModel: UserViewModel
 
@@ -33,7 +32,6 @@ struct UserView: View {
     }
 }
 
-@available(iOS 13.0, *)
 struct UserView_Previews: PreviewProvider {
     static var previews: some View {
         let interactor = UserInteractor(repository: UserRepository())

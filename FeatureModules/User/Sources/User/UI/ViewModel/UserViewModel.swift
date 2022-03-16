@@ -7,7 +7,6 @@
 
 import Foundation
 
-@available(iOS 13.0, *)
 final class UserViewModel: ObservableObject {
 
     @Published var user: User?

@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@available(iOS 13.0, *)
 struct PostView: View {
 
     let post: Post
@@ -19,7 +18,6 @@ struct PostView: View {
     }
 }
 
-@available(iOS 13.0, *)
 struct PostView_Previews: PreviewProvider {
     static var previews: some View {
         let post = Post(title: "Title", description: "Description")

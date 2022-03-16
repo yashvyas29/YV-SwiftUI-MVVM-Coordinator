@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@available(iOS 13.0, *)
 public struct UserCoordinator: View {
 
     @ObservedObject private(set) var userViewModel: UserViewModel

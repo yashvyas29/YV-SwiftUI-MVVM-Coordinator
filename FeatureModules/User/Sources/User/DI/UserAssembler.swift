@@ -7,7 +7,6 @@
 
 import Foundation
 
-@available(iOS 13.0, *)
 public struct UserAssembler {
     public static func getView() -> UserCoordinator {
         return UserCoordinator(userViewModel: getViewModel())

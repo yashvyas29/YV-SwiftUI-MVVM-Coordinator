@@ -8,7 +8,6 @@
 import XCTest
 @testable import User
 
-@available(iOS 13.0, *)
 class UserAssemblerTests: XCTestCase {
 
     func testGetView() {
